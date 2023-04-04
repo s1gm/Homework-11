@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: linear-gradient(90deg, rgba(121,9,94,1) 35%, rgba(0,88,255,1) 100%);
+
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.item2{
+    position: relative;
+}
+
+.subitem{
+    position: absolute;
+    left: 108px;
+    top: -10;   
+    width: 170px;
+    background-color: rgba( 0, 0, 0, 0.2 );
+    padding: 10px;
+    display: none;
+}
+
+.menu{
+    border: 1px solid black;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    background-color: rgba( 0, 0, 0, 0 );
+    margin: 20px;
+}
+
+.item2:hover .subitem{
+    display: inline;
+}
+
+li:hover{
+    background-color: rgb(0, 0, 0, 0.2);
+}
